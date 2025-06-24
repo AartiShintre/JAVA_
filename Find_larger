@@ -1,0 +1,22 @@
+package day2;
+
+public class find_larger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=5;
+int b=7;
+int c=23;
+if(a>b&&a>c) {
+	System.out.println("a "+a +"is greter");
+}
+else if(b>a&&b>c) {
+	System.out.println("b "+b +"is greter");
+}
+else
+{
+	System.out.println("c "+c +"is greter");
+}
+	}
+
+}
